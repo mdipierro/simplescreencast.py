@@ -1,6 +1,6 @@
 # simplescreencast
 
-Simplescreencast is a simple (one file) program written in Python that can be used to create a screencast (with picture in picture) and/or to automate the screen caputure in classrooms.
+Simplescreencast is a simple (one file) program written in Python that can be used to create a screencast (with picture in picture) and/or to automate the screen capture in classrooms.
 
 Simplescreencast works by taking periodic screenshots, camera shots, and recording the audio. It then assembles them all in a single mp4 video. If both screen and camera sources are selected (default) is produces a video with a picture in picture. If the size of one source is set to zero, only the other is recorded. Once the video is produced, it is automatically uploaded it to your server or moved into a speficied destination folder. Simplescreencast also has the ability to run its own server thus exposing API to control the recording.
 
